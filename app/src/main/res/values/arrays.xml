@@ -1,0 +1,14 @@
+<resources>
+    <string-array name="opciones_evaluacion">
+        <item>Bueno</item>
+        <item>Regular</item>
+        <item>Malo</item>
+    </string-array>
+
+    <string-array name="opciones_elegible">
+        <item>SI</item>
+        <item>NO</item>
+        <item>TAL VEZ</item>
+    </string-array>
+</resources>
+

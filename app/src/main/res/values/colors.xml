@@ -1,0 +1,7 @@
+<resources>
+    <color name="primaryColor">#F7941D</color>  <!-- Naranja BreZone -->
+    <color name="primaryDark">#D96C12</color>  <!-- Naranja oscuro -->
+    <color name="darkBlueGray">#1B4D6F</color>  <!-- Azul BreZone -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+</resources>

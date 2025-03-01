@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/darkBlueGray"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Sección 1: Datos del Asesor -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Datos del Asesor"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:paddingBottom="8dp" />
+
+        <EditText
+            android:id="@+id/input_asesor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nombre del Asesor"
+            android:textColor="@color/black"
+            android:background="@android:color/white"/>
+
+        <!-- Sección 2: Datos del Cliente -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Datos del Cliente"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:paddingTop="16dp"
+            android:paddingBottom="8dp" />
+
+        <EditText
+            android:id="@+id/input_cliente"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nombre del Cliente"
+            android:textColor="@color/black"
+            android:background="@android:color/white"/>
+
+        <!-- Sección: Clave Propiedad -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Clave de la Propiedad"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:paddingTop="16dp"
+            android:paddingBottom="8dp" />
+
+        <EditText
+            android:id="@+id/input_clave_propiedad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ingrese la clave de la propiedad"
+            android:inputType="text"
+            android:textColor="@color/black"
+            android:background="@android:color/white"/>
+
+
+        <!-- Sección 3: Colonia -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Colonia de la Propiedad"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:paddingTop="16dp"
+            android:paddingBottom="8dp" />
+
+        <EditText
+            android:id="@+id/input_colonia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ingrese la colonia"
+            android:textColor="@color/black"
+            android:background="@android:color/white"/>
+
+        <!-- Sección 4: Evaluación del Inmueble -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Evaluación del Inmueble"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:paddingTop="16dp"/>
+
+        <!-- Ubicación Geográfica -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ubicación Geográfica"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textColor="@color/primaryDark"/>
+
+        <Spinner
+            android:id="@+id/spinner_ubicacion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/opciones_evaluacion"/>
+
+
+        <!-- Estado de Conservación -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Estado de Conservación del Inmueble"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textColor="@color/primaryDark"/>
+
+        <Spinner
+            android:id="@+id/spinner_estado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/opciones_evaluacion"/>
+
+
+        <!-- Proyecto Arquitectónico -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Proyecto Arquitectónico"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textColor="@color/primaryDark"/>
+
+        <Spinner
+            android:id="@+id/spinner_proyecto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/opciones_evaluacion"/>
+
+        <!-- Precio Promoción -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="Precio Promoción"
+            android:textSize="16sp"
+            android:textColor="@color/primaryDark"/>
+
+        <Spinner
+            android:id="@+id/spinner_precio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/opciones_evaluacion"/>
+
+        <!-- Limpieza -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Limpieza"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textColor="@color/primaryDark"/>
+
+        <Spinner
+            android:id="@+id/spinner_limpieza"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/opciones_evaluacion"/>
+
+        <!-- Sección 5: ¿Es una opción elegible? -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="¿Es una opción elegible?"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:paddingTop="16dp"/>
+
+        <Spinner
+            android:id="@+id/spinner_elegible"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/opciones_elegible"/>
+
+        <!-- Sección 6: Comentarios -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Comentarios Adicionales"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:paddingTop="16dp"/>
+
+        <EditText
+            android:id="@+id/input_comentario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ingrese su comentario aquí"
+            android:textColor="@color/black"
+            android:background="@android:color/white"/>
+
+        <!-- Botón Guardar -->
+        <Button
+            android:id="@+id/btn_guardar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Guardar Encuesta"
+            android:background="@color/primaryColor"
+            android:textColor="@color/black"
+            android:padding="10dp"
+            android:layout_marginTop="16dp"/>
+
+        <Button
+            android:id="@+id/btn_ver_encuestas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ver Encuestas Guardadas"
+            android:background="@color/primaryColor"
+            android:textColor="@color/black"
+            android:padding="10dp"
+            android:layout_marginTop="10dp"/>
+
+    </LinearLayout>
+</ScrollView>

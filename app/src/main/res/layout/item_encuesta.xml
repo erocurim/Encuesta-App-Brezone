@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <!-- Asesor -->
+    <TextView
+        android:id="@+id/txtAsesor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Asesor"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+
+    <!-- Cliente -->
+    <TextView
+        android:id="@+id/txtCliente"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:text="Cliente" />
+
+    <!-- Clave de la Propiedad -->
+    <TextView
+        android:id="@+id/txtClavePropiedad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:text="Clave de la Propiedad: "
+        android:padding="4dp"/>
+
+    <!-- Colonia -->
+    <TextView
+        android:id="@+id/txtColonia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:text="Colonia" />
+
+    <!-- Estado de Conservación -->
+    <TextView
+        android:id="@+id/txtEstado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:text="Estado de Conservación" />
+
+    <!-- Ubicación Geográfica -->
+    <TextView
+        android:id="@+id/txtUbicacion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:text="Ubicación Geográfica" />
+
+    <!-- Proyecto Arquitectónico -->
+    <TextView
+        android:id="@+id/txtProyecto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:text="Proyecto Arquitectónico" />
+
+    <!-- Precio -->
+    <TextView
+        android:id="@+id/txtPrecio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:text="Precio" />
+
+    <!-- Limpieza -->
+    <TextView
+        android:id="@+id/txtLimpieza"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:text="Limpieza" />
+
+    <!-- Elegible -->
+    <TextView
+        android:id="@+id/txtElegible"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:text="Elegible" />
+
+    <!-- Comentario -->
+    <TextView
+        android:id="@+id/txtComentario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:text="Comentario" />
+
+    <TextView
+        android:id="@+id/txtFechaHora"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fecha y Hora"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:padding="4dp"/>
+
+</LinearLayout>
